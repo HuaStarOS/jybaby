@@ -29,7 +29,7 @@ var context;
             var starCount = 800;
 
             var rains = new Array();
-			var rainCount =20;
+			var rainCount =30;
 
             //初始化画布及context
             function init(){
@@ -80,12 +80,12 @@ var context;
 
                 init();
                 //画星星
-                for (var i=0;i<starCount;i++) {
-                    var star = new Star();
-                    star.init();
-                    star.draw();
-                    arr.push(star);
-                }
+//                 for (var i=0;i<starCount;i++) {
+//                     var star = new Star();
+//                     star.init();
+//                     star.draw();
+//                     arr.push(star);
+//                 }
 
                 //画流星
                 for (var i=0;i<rainCount;i++) {
